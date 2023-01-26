@@ -112,9 +112,10 @@ public class KitapBilgileri {
     }
 
     private void bilgiIleKitapListele() {
-
+        scan.nextLine();
         System.out.println("Lutfen kitap adını giriniz");
         String girilenkitapAdi = scan.nextLine();
+
         System.out.println("Lutfen yazar adını giriniz");
         String girilenyazarAdi = scan.nextLine();
         int count = 0;
